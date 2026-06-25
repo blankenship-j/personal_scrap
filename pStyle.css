@@ -2,3 +2,17 @@ body {
   background-color: LightSteelBlue;
   color: black;
 }
+
+/* stylized text blocks (cause we're getting fancy with it)*/
+div.item {
+    display:block;
+    background:#b7d2dd;
+    padding: 5;
+    margin: 30;
+    border-radius: 15px;
+    border-width: 3;
+    color: #6698ad;
+}
+
+p a {
+  color:#6698ad;}
