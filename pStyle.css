@@ -29,6 +29,7 @@ li.loc_cat a {
   width: 90%;
   border-radius: 15px;
   border-width: 3;
+  border-color: #b7d2dd;
   text-align: left;
   outline: none;
 }
@@ -38,7 +39,6 @@ li.loc_cat a {
 .content {
   display:block;
   padding: 0 18px;
-  display: none;
   overflow: hidden;
   background-color: ##b7d2dd;
   color: #6698ad;
