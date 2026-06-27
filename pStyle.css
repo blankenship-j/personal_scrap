@@ -20,8 +20,8 @@ li.loc_cat a {
 
 /* what blackboxy code? it's not blackboxy, I don't know what you're talking about */
 .collapsible {
-  background-color: #777;
-  color: white;
+  background-color: #b7d2dd;
+  color: #6698ad;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -32,7 +32,7 @@ li.loc_cat a {
 }
 
 .active, .collapsible:hover {
-  background-color: #555;
+  background-color: #89b1c2;
 }
 
 .content {
@@ -40,7 +40,8 @@ li.loc_cat a {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
+  background-color: #b7d2dd;
+  color: #6698ad;
 }
 
 
