@@ -38,7 +38,10 @@ li.loc_cat a {
 /* Style the collapsible content. (Note: hidden by default) */
 .content {
   display:block;
-  padding: 0 18px;
+  padding: 5;
+  margin: 30;
+  border-radius: 15px;
+  border-width: 3;
   overflow: hidden;
   background-color: ##b7d2dd;
   color: #6698ad;
