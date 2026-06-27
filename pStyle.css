@@ -35,7 +35,7 @@ li.loc_cat a {
 }
 
 
-/* Style the collapsible content. Note: hidden by default */
+/* Style the collapsible content. (Note: hidden by default) */
 .content {
   display:block;
   padding: 0 18px;
