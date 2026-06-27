@@ -9,7 +9,6 @@ div.item {
     background:#b7d2dd;
     padding: 5;
     margin: 30;
-    width: 90%;
     border-radius: 15px;
     border-width: 3;
     color: #6698ad;
@@ -27,9 +26,11 @@ li.loc_cat a {
   cursor: pointer;
   padding: 5;
   margin: 30;
+  width: 90%;
   border-radius: 15px;
   border-width: 3;
   text-align: left;
+  outline: none;
 }
 
 
