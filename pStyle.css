@@ -16,3 +16,29 @@ div.item {
 
 li.loc_cat a {
   color:#6698ad;}
+
+
+/* what blackboxy code? it's not blackboxy, I don't know what you're talking about */
+/*(Style the button that is used to open and close the collapsible content) */
+  .collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+
