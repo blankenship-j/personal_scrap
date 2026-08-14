@@ -10,7 +10,7 @@ function myFunction() {
   const textElement = document.getElementById("my-text");
   
   // Choice A: Remove the hidden class entirely
-  textElement.classList.remove("hidden");
+  textElement.classList.remove("pretty");
 
   // Loop through all list items, and hide those who don't match the search query
   for (i = 0; i < li.length; i++) {
