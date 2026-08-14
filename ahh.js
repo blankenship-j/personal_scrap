@@ -7,7 +7,7 @@ function myFunction() {
   li = ul.getElementsByTagName('li');
 
   function revealText() {
-  const textElement = document.getElementById("my-text");
+  const textElement = document.getElementById("myUL");
   
   // Choice A: Remove the hidden class entirely
   textElement.classList.remove("pretty");
