@@ -9,7 +9,7 @@ ul.nav-bar {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #fbf5ff;
+    background-color: #f2dff8;
     display:block;}
 
 li.nav-bar{
@@ -25,7 +25,7 @@ li a {
 /* stylized text blocks */
 div.item {
     display:block;
-    background: #fbf5ff;
+    background: #f2dff8;
     padding: 5;
     margin: 30;
     border-radius: 15px;
