@@ -1,12 +1,12 @@
 body {
-  background-color: LightSteelBlue;
+  background-color: #feffe9;
   color: black;
 }
 
 /* stylized text blocks (cause we're getting fancy with it)*/
 div.item {
     display:block;
-    background:#b7d2dd;
+    background:#cbd091;
     padding: 5;
     margin: 30;
     border-radius: 15px;
