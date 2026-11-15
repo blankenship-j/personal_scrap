@@ -1,5 +1,5 @@
 body {
-  background-color: #feffe9;
+  background-color: #fbf5ff;
   color: black;
 }
 
@@ -9,7 +9,7 @@ ul.nav-bar {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #6698ad;
+    background-color: #d3b4dd;
     display:block;}
 
 li.nav-bar{
@@ -25,7 +25,7 @@ li a {
 /* stylized text blocks (cause we're getting fancy with it)*/
 div.item {
     display:block;
-    background:#cbd091;
+    background:#d3b4dd;
     padding: 5;
     margin: 30;
     border-radius: 15px;
