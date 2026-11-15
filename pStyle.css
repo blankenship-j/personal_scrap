@@ -3,6 +3,25 @@ body {
   color: black;
 }
 
+/* top navigation */
+ul.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6698ad;
+    display:block;}
+
+li.nav-bar{
+    float:left;}
+
+li a {
+    display: block;
+    color:Tan; 
+    text-align:center;
+    padding: 10px;
+    text-decoration: none;}
+
 /* stylized text blocks (cause we're getting fancy with it)*/
 div.item {
     display:block;
