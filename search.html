@@ -19,18 +19,20 @@
   </ul>
 
 
-    <div>
-      <p>[search bar, I think (okay try this)]</p>
-    </div>
-
-  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
-
- <div class="texts">
-	<div id="checkbox-checked-t"> 
-    <h2>Torah</h2> 
-    <p>just filler, again</p>
-  </div>
- </div>
+  <!-- filters --> 
+  <h3>Text</h3> 
+	<label class="container">Torah
+        <input type="checkbox" onclick="Texts(this,'checkbox-checked-t','checkbox-unchecked')" checked="checked"/>
+        <span class="checkmark"></span>
+    </label>
+    <label class="container">New Testament
+        <input type="checkbox" onclick="Texts(this,'checkbox-checked-n','checkbox-unchecked')" checked="checked"/>
+        <span class="checkmark"></span>
+    </label>
+    <label class="container">Quran
+        <input type="checkbox" onclick="Texts(this,'checkbox-checked-q','checkbox-unchecked')" checked="checked"/>
+        <span class="checkmark"></span>
+    </label>
   
    <script src="ahh.js"></script>
     
