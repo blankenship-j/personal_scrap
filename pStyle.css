@@ -1,6 +1,6 @@
 body {
-  background-color: #fbf5ff;
-  color: black;
+  background-color: FloralWhite;
+  color: #4e0564;
 }
 
 /* top navigation */
@@ -9,7 +9,7 @@ ul.nav-bar {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #f2dff8;
+    background-color: #fbf5ff;
     display:block;}
 
 li.nav-bar{
@@ -25,7 +25,7 @@ li a {
 /* stylized text blocks */
 div.item {
     display:block;
-    background:#f2dff8;
+    background: #fbf5ff;
     padding: 5;
     margin: 30;
     border-radius: 15px;
