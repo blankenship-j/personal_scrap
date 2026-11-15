@@ -17,7 +17,7 @@ li.nav-bar{
 
 li a {
     display: block;
-    color:Tan; 
+    color: #4e0564; 
     text-align:center;
     padding: 10px;
     text-decoration: none;}
@@ -30,7 +30,7 @@ div.item {
     margin: 30;
     border-radius: 15px;
     border-width: 3;
-    color: #6698ad;
+    color: #4e0564;
 }
 
 li.loc_cat a {
