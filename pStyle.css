@@ -1,6 +1,6 @@
 body {
   background-color: FloralWhite;
-  color: #4b4b82;
+  color: #8282b8;
 }
 
 /* top navigation */
@@ -9,7 +9,7 @@ ul.nav-bar {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #b4b4dd;
+    background-color: #cdcdeb;
     display:block;}
 
 li.nav-bar{
@@ -25,12 +25,12 @@ li a {
 /* stylized text blocks */
 div.item {
     display:block;
-    background: #b4b4dd;
+    background: #cdcdeb;
     padding: 5;
     margin: 30;
     border-radius: 15px;
     border-width: 3;
-    color: #55559f;
+    color: #8282b8;
 }
 
 li.loc_cat a {
