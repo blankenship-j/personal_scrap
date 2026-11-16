@@ -36,6 +36,18 @@ div.item {
 li.loc_cat a {
   color:#6698ad;}
 
+/* search page display */
+div.checkbox-checked-Gl {
+  display:block;
+    background: #dedef1;
+    padding: 5;
+    margin: 30;
+    border-radius: 15px;
+    border-width: 3;
+    color: #9a99bb;
+}
+  
+
 /* filters */
 ul.filters {
     list-style-type:none;}
