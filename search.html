@@ -18,58 +18,103 @@
     </li>
   </ul>
 
+	<script>      
+               function Texts(d,dchecked,dunchecked)
+               {
+                  if( d.checked == true )
+                  {
+                     document.getElementById(dchecked).style.display = "block";
+                     document.getElementById(dunchecked).style.display = "none";
+                  }
+                  else
+                  {
+                     document.getElementById(dchecked).style.display = "none";
+                     document.getElementById(dunchecked).style.display = "none";
+                  }
+               }
+               function Highlight(checkbox, targetClass) {
+        // Get all elements with the target class
+        const elements = document.querySelectorAll(`.${targetClass}`);
+
+        // Toggle the 'highlighted' class based on checkbox state
+        elements.forEach(element => {
+            if (checkbox.checked) {
+                element.classList.add("highlighted");
+            } else {
+                element.classList.remove("highlighted");
+            }
+        });
+    }
+         </script>
+
 
   <!-- filters --> 
   <h3>Search by Topic</h3> 
 	<label class="container">Art
-        <input type="checkbox" onclick="Texts(this,'checkbox-checked-t','checkbox-unchecked')" checked="checked"/>
+        <input type="checkbox" onclick="Texts(this,'checkbox-checked-Ta','checkbox-unchecked')" checked="checked"/>
         <span class="checkmark"></span>
     </label>
     <label class="container">Labor and Social Justice
-        <input type="checkbox" onclick="Texts(this,'checkbox-checked-n','checkbox-unchecked')" checked="checked"/>
+        <input type="checkbox" onclick="Texts(this,'checkbox-checked-Tl','checkbox-unchecked')" checked="checked"/>
         <span class="checkmark"></span>
     </label>
     <label class="container">Religion
-        <input type="checkbox" onclick="Texts(this,'checkbox-checked-q','checkbox-unchecked')" checked="checked"/>
+        <input type="checkbox" onclick="Texts(this,'checkbox-checked-Tr','checkbox-unchecked')" checked="checked"/>
         <span class="checkmark"></span>
     </label>
 
 	<h3>Search by Group</h3> 
     <label class="container">African American Archives
-        <input type="checkbox" onclick="Texts(this,'checkbox-checked-n','checkbox-unchecked')" checked="checked"/>
+        <input type="checkbox" onclick="Texts(this,'checkbox-checked-Ga','checkbox-unchecked')" checked="checked"/>
         <span class="checkmark"></span>
     </label>
     <label class="container">Chinese American Archives
-        <input type="checkbox" onclick="Texts(this,'checkbox-checked-q','checkbox-unchecked')" checked="checked"/>
+        <input type="checkbox" onclick="Texts(this,'checkbox-checked-Gc','checkbox-unchecked')" checked="checked"/>
         <span class="checkmark"></span>
     </label>
 	<label class="container">Japanese American Archives
-        <input type="checkbox" onclick="Texts(this,'checkbox-checked-t','checkbox-unchecked')" checked="checked"/>
+        <input type="checkbox" onclick="Texts(this,'checkbox-checked-Gj','checkbox-unchecked')" checked="checked"/>
         <span class="checkmark"></span>
     </label>
 	<label class="container">LGBTQ+ Archives
-        <input type="checkbox" onclick="Texts(this,'checkbox-checked-t','checkbox-unchecked')" checked="checked"/>
+        <input type="checkbox" onclick="Texts(this,'checkbox-checked-Gl','checkbox-unchecked')" checked="checked"/>
         <span class="checkmark"></span>
     </label>
 
 	<h3>Search by State or Location</h3> 
 	<label class="container">Alaska
-        <input type="checkbox" onclick="Texts(this,'checkbox-checked-t','checkbox-unchecked')" checked="checked"/>
+        <input type="checkbox" onclick="Texts(this,'checkbox-checked-Sa','checkbox-unchecked')" checked="checked"/>
         <span class="checkmark"></span>
     </label>
     <label class="container">California
-        <input type="checkbox" onclick="Texts(this,'checkbox-checked-n','checkbox-unchecked')" checked="checked"/>
+        <input type="checkbox" onclick="Texts(this,'checkbox-checked-Sc','checkbox-unchecked')" checked="checked"/>
         <span class="checkmark"></span>
     </label>
     <label class="container">Georgia 
-        <input type="checkbox" onclick="Texts(this,'checkbox-checked-q','checkbox-unchecked')" checked="checked"/>
+        <input type="checkbox" onclick="Texts(this,'checkbox-checked-Sg','checkbox-unchecked')" checked="checked"/>
         <span class="checkmark"></span>
     </label>
 	<label class="container">Illinois
-        <input type="checkbox" onclick="Texts(this,'checkbox-checked-t','checkbox-unchecked')" checked="checked"/>
+        <input type="checkbox" onclick="Texts(this,'checkbox-checked-Si','checkbox-unchecked')" checked="checked"/>
         <span class="checkmark"></span>
 	</label> 
 
+	<div id="checkbox-checked-Gl">
+		<p><a href="https://www.actuporalhistory.org/">ACT UP Oral History Project</a></p>
+ 	 	<p><a href="https://arizonaqueerarchives.com/">Arizona Queer Archives</a></p>
+  		<p><a href="https://queerarchives.org.au/">Australian Queer Archives</a></p>
+  		<p><a href="https://www.bayarealesbianarchives.org/">Bay Area Lesbian Archives</a></p>
+  		<p><a href="https://www.digitaltransgenderarchive.net/about/overview">Digital Transgender Archive</a></p>
+  		<p><a href="https://www.glbthistory.org/online-resources">GLBT Historical Society</a></p>
+  		<p><a href="https://invisiblehistory.org/">Invisible Histories</a></p>
+ 	 	<p><a href="https://lambdaarchives.org/">Lambda Archives of San Diego</a></p>
+  		<p><a href="https://lesbianherstoryarchives.org/">Lesbian Herstory Archives</a></p>
+  		<p><a href="https://www.mazerlesbianarchives.org/">Mazer Lesbian Archives</a></p>
+  		<p><a href="https://archive.qzap.org/">QZAP Zine Archive</a></p>
+  		<p><a href="https://rainbowhistory.org/collection/">Rainbow History Project</a></p>
+  		<p><a href="https://wisconsin-first.com/">Wisconsin First</a></p>
+	</div>
+	
 </body>
 
   
