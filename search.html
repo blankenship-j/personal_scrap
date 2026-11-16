@@ -16,23 +16,24 @@
     <li class="nav-bar">
       <a class="real" href="searchsearch.html">More Info</a>
     </li>
-  </ul>
+  </ul> 
 
-	<script>      
-               function Texts(d,dchecked,dunchecked)
-               {
-                  if( d.checked == true )
-                  {
-                     document.getElementById(dchecked).style.display = "block";
-                     document.getElementById(dunchecked).style.display = "none";
-                  }
-                  else
-                  {
-                     document.getElementById(dchecked).style.display = "none";
-                     document.getElementById(dunchecked).style.display = "none";
-                  }
-               }
-               function Highlight(checkbox, targetClass) {
+  <script>      
+    function Texts(d,dchecked,dunchecked)
+        {
+			if( d.checked == true )
+				{ 
+					document.getElementById(dchecked).style.display = "block";
+                    document.getElementById(dunchecked).style.display = "none"; 
+				} 
+			else 
+				{ 
+					document.getElementById(dchecked).style.display = "none";
+					document.getElementById(dunchecked).style.display = "none";
+				}
+		}
+
+	  function Highlight(checkbox, targetClass) {
         // Get all elements with the target class
         const elements = document.querySelectorAll(`.${targetClass}`);
 
