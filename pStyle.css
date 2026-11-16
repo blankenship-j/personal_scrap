@@ -9,7 +9,7 @@ ul.nav-bar {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #dedef1;
+    background-color: #cdcdeb;
     display:block;}
 
 li.nav-bar{
@@ -17,7 +17,7 @@ li.nav-bar{
 
 li a {
     display: block;
-    color: #9a99bb; 
+    color: #8282b8; 
     text-align:center;
     padding: 10px;
     text-decoration: none;}
@@ -25,12 +25,12 @@ li a {
 /* stylized text blocks */
 div.item {
     display:block;
-    background: #dedef1;
+    background: #cdcdeb;
     padding: 5;
     margin: 30;
     border-radius: 15px;
     border-width: 3;
-    color: #9a99bb;
+    color: #8282b8;
 }
 
 li.loc_cat a {
