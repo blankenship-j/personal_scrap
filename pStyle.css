@@ -39,7 +39,8 @@ li.loc_cat a {
 /* search page display */
 div.results {
   display:block;
-  background; FloralWhite;
+  background: FloralWhite;
+  position:relative;
   left: 250px;
   top:-1150px;
 }
