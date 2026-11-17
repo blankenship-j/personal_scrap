@@ -46,7 +46,7 @@ li.loc_cat a {
 /*}*/
 
 #checkbox-checked-Ta {
-  display:block;
+  display: inline-block;
     background: #dedef1;
     position:relative;
     left:275px;
@@ -60,7 +60,7 @@ li.loc_cat a {
 }
 
 #checkbox-checked-Tl {
-  display:block;
+  display: inline-block;
     background: #dedef1;
     position:relative;
     left:275px;
@@ -74,7 +74,7 @@ li.loc_cat a {
 }
 
 #checkbox-checked Tr {
-  display:block;
+  display: inline-block;
     background: #dedef1;
     position:relative;
     left:275px;
@@ -88,7 +88,7 @@ li.loc_cat a {
 }
 
 #checkbox-checked-Ga {
- display:block;
+ display: inline-block;
     background: #dedef1;
     position:relative;
     left:275px;
@@ -102,7 +102,7 @@ li.loc_cat a {
 }
 
 #checkbox-checked-Gb {
-  display:block;
+  display: inline-block;
     background: #dedef1;
     position:relative;
     left:275px;
@@ -116,7 +116,7 @@ li.loc_cat a {
 }
 
 #checkbox-checked-Gl {
-  display:block;
+  display: inline-block;
     background: #dedef1;
     position:relative;
     left:275px;
@@ -135,8 +135,9 @@ ul.filters {
     list-style-type:none;}
 
 div.filters {
-    position:relative;
-    left:20px;}
+  display: inline-block;
+  position:relative;
+  left:20px;}
 
             /* checkboxes */
             /* Customize the label (the container) */
