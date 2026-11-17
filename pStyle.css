@@ -45,6 +45,76 @@ li.loc_cat a {
   /*top:-1150px;*/
 /*}*/
 
+#checkbox-checked-Ta {
+  display:block;
+    background: #dedef1;
+    position:relative;
+    left:275px;
+    top:-1150px;
+    width: 75%;
+    padding: 5;
+    margin: 30;
+    border-radius: 15px;
+    border-width: 3;
+    color: #9a99bb;
+}
+
+#checkbox-checked-Tl {
+  display:block;
+    background: #dedef1;
+    position:relative;
+    left:275px;
+    top:-1150px;
+    width: 75%;
+    padding: 5;
+    margin: 30;
+    border-radius: 15px;
+    border-width: 3;
+    color: #9a99bb;
+}
+
+#checkbox-checked-Tr {
+  display:block;
+    background: #dedef1;
+    position:relative;
+    left:275px;
+    top:-1150px;
+    width: 75%;
+    padding: 5;
+    margin: 30;
+    border-radius: 15px;
+    border-width: 3;
+    color: #9a99bb;
+}
+
+#checkbox-checked-Ga {
+  display:block;
+    background: #dedef1;
+    position:relative;
+    left:275px;
+    top:-1150px;
+    width: 75%;
+    padding: 5;
+    margin: 30;
+    border-radius: 15px;
+    border-width: 3;
+    color: #9a99bb;
+}
+
+#checkbox-checked-Gb {
+  display:block;
+    background: #dedef1;
+    position:relative;
+    left:275px;
+    top:-1150px;
+    width: 75%;
+    padding: 5;
+    margin: 30;
+    border-radius: 15px;
+    border-width: 3;
+    color: #9a99bb;
+}
+
 #checkbox-checked-Gl {
   display:block;
     background: #dedef1;
