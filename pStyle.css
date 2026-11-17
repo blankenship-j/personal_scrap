@@ -51,6 +51,7 @@ li.loc_cat a {
     position:relative;
     left:275px;
     width: 60%;
+    top: -500px;
     padding: 5;
     margin: 30;
     border-radius: 15px;
@@ -64,6 +65,7 @@ li.loc_cat a {
     position:relative;
     left:275px;
     width: 60%;
+    top: -500px;
     padding: 5;
     margin: 30;
     border-radius: 15px;
@@ -71,12 +73,13 @@ li.loc_cat a {
     color: #9a99bb;
 }
 
-#checkbox-checked-Tr {
+#checkbox-checked Tr {
   display:block;
     background: #dedef1;
     position:relative;
     left:275px;
     width: 60%;
+    top: -500px;
     padding: 5;
     margin: 30;
     border-radius: 15px;
@@ -90,6 +93,7 @@ li.loc_cat a {
     position:relative;
     left:275px;
     width: 60%;
+    top: -500px;
     padding: 5;
     margin: 30;
     border-radius: 15px;
@@ -103,6 +107,7 @@ li.loc_cat a {
     position:relative;
     left:275px;
     width: 60%;
+    top: -500px;
     padding: 5;
     margin: 30;
     border-radius: 15px;
@@ -116,6 +121,7 @@ li.loc_cat a {
     position:relative;
     left:275px;
     width: 60%;
+    top: -500px;
     padding: 5;
     margin: 30;
     border-radius: 15px;
