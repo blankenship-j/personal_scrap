@@ -37,7 +37,7 @@ li.loc_cat a {
   color:#6698ad;}
 
 /* search page display */
-div.checkbox-checked-Gl {
+#checkbox-checked-Gl {
   display:block;
     background: #dedef1;
     padding: 5;
